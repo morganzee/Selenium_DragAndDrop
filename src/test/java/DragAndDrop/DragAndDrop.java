@@ -27,10 +27,10 @@ public class DragAndDrop {
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Documents\\Selenium Webdriver\\chromedriver.exe");
             driver = new EdgeDriver();
         }
-        //Gmail singup URL
+            // URL
         driver.get("http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
         driver.manage().window().maximize();
-        //get browser title
+            //get browser title
         String getTitle = driver.getTitle();
         System.out.println("Page Title :" + getTitle);
 
